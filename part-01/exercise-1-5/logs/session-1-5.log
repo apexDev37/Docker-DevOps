@@ -1,0 +1,103 @@
+Script started on 2023-03-18 16:20:39+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="83" LINES="41"]
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h## Exercise 1.5: SIZES OF IMAGES[31D[7m#[7m [7mE[7mx[7me[7mr[7mc[7mi[7ms[7me[7m [7m1[7m.[7m5[7m:[7m [7mS[7mI[7mZ[7mE[7mS[7m [7mO[7mF[7m [7mI[7mM[7mA[7mG[7mE[7mS[27m[31D[27m#[27m [27mE[27mx[27me[27mr[27mc[27mi[27ms[27me[27m [27m1[27m.[27m5[27m:[27m [27mS[27mI[27mZ[27mE[27mS[27m [27mO[27mF[27m [27mI[27mM[27mA[27mG[27mE[27mS[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h##[90m Exercise 1.5: SIZES OF IMAGES[39m[30D#[39m [39mS[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [28D[90mTEP 5: EXEC process to curl website input by user [39m[50D[39mT[39mE[39mP[39m [39m1[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [45D[90m: START interactive ubuntu container[39m[36D[39m:[39m [10DG         [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [43DGo inside the alpine container[30D# STEP 1: [7mG[7mo[7m [7mi[7mn[7ms[7mi[7md[7me[7m [7mt[7mh[7me[7m [7ma[7ml[7mp[7mi[7mn[7me[7m container[27m[30D[27mG[27mo[27m [27mi[27mn[27ms[27mi[27md[27me[27m [27mt[27mh[27me[27m [27ma[27ml[27mp[27mi[27mn[27me[27m [27mc[27mo[27mn[27mt[27ma[27mi[27mn[27me[27mr[90mSTART interact[90mi[90mve ubuntu container[39m[K[A[49C[K[1B[K[A[69C[?1l>[?2004l[1B[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hDD[90mRF-Tutorial[39m[11DD[39mO[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10DCKE   D D[90mRF-Tutorial[39m[11D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12Ddd[90mocker images[39m[12Dd[39mo[39mc[39mk[39me[39mr[39m [39mr[39m [39m [39m [39m [39m [90mm mr_curler[39m[11D[39mu[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D[90mn -d -it --name mr_curler ubuntu:latest[39m[39D[39mn[39m [39m-[39mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [35D[90mt --name mr_curl ubuntu:latest[39m[30D[39mt[39m [39m-[39m-[39mn[39ma[39mm[39me[39m [39ma[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20Dp k lpiner al  de  [30Dd                            [28Ddevopsdockeruh/simple-web-service:alpine[40Ddocker run -it --name alpin[2C [7md[7me[7mv[7mo[7mp[7ms[7md[7mo[7mc[7mk[7meruh/simple-we[7mb[7m-service:alpine[27m[K[A[43C[27md[27me[27mv[27mo[27mp[27ms[27md[27mo[27mc[27mk[27me[27mr[27mu[27mh[27m/[27ms[27mi[27mm[27mp[27ml[27me[27m-[27mw[27meb[27m-[27ms[27me[27mr[27mv[27mi[27mc[27me[27m:[27ma[27ml[27mp[27mi[27mn[27me[?1l>[?2004l
+]2;docker run -it --name alpiner devopsdockeruh/simple-web-service:alpine]1;dockerStarting log output
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+Wrote text to /usr/src/app/text.log
+^C[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;31m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;31m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdd[90mocker run -it --name alpiner devopsdockeruh/simple-we[90mb[90m-service:alpine[39m[K[A[14Cd[39mo[39mc[39mk[39me[39mr[39m [39mp[K[1B[K[A[37C[90mull devopsdockeruh/simple-web-service:alpine[39m[44D[39ms[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [43D[90m -a[39m[39m [39m [39m [?1l>[?2004l[1B]2;docker ps]1;dockerCONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker psull devopsdockeruh/simple-web-service:alpine[44Ds -a                                        [40D   -a   -a   -a   -a   -aull devopsdockeruh/simple-web-service:alpine[44Ds                                           [43D[1C [90ms[39m [39m [90mps[39m[39m [39m [90m ps[39m[39m [39mr[39m [90mun -it --name alpiner devopsdockeruh/simple-we[90mb[90m-service:alpine[39m[K[A[21C[39mu[39mn[39m [39m-[39mi[39mt[39m [39m-[39m-[39mn[39ma[39mm[39me[39m [39ma[39ml[39mp[39mi[39mn[39me[39mr[39m [39md[39me[39mv[39mo[39mp[39ms[39md[39mo[39mc[39mk[39me[39mr[39mu[39mh[39m/[39ms[39mi[39mm[39mp[39ml[39me[39m-[39mw[39meb[39m-[39ms[39me[39mr[39mv[39mi[39mc[39me[39m:[39ma[39ml[39mp[39mi[39mn[39me[8D[A[79C[15D[8D[1C-it --name alpiner devopsdockeruh/simple-web-service:alpine[A[24Cd-it --name alpiner devopsdockeruh/simple-web-service:alpine[A[24C -it --name alpiner devopsdockeruh/simple-web-service:alpine[A[24C[?1l>[?2004l[1B
+]2;docker run -d -it --name alpiner devopsdockeruh/simple-web-service:alpine]1;dockerdocker: Error response from daemon: Conflict. The container name "/alpiner" is already in use by container "05b635d1856c6f8084bb66f9bdc17df2746a4475d4fbeec3f5cd7c41d6b58544". You have to remove (or rename) that container to be able to reuse that name.
+See 'docker run --help'.
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;31m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdd[90mocker run -d -it --name alpiner devopsdockeruh/simple[90m-[90mweb-service:alpine[39m[K[A[11Cd[39mo[39mc[39mk[39me[39mr[39m [39mr[39mm[K[1B[K[A[38C[90m mr_curler[39m[10D[39m [39ma[39m [39m [39m [39m [39m [39m [39m [39m [8D[90m31a7d1371ac[39m[11D[39mp[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10D [90m31a7d1371ac[39m[11D[39ml[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10Dpiner[?1l>[?2004l[1B]2;docker rm alpiner]1;dockeralpiner
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdocker rm alpiner[9Dun -d -it --name alpiner devopsdockeruh/simple-web-service:alpine[K[?1l>[?2004l
+]2;docker run -d -it --name alpiner devopsdockeruh/simple-web-service:alpine]1;dockeraa422da87d84fb220713c40c3358a929dd5ddb46bb6ab4e2a45e234f2cdd3c65
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[H[2J[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [Kdd[90mocker run -d -it --name alpiner devopsdockeruh/simple[90m-[90mweb-service:alpine[39m[K[A[11Cd[39mo[39mc[39mk[39me[39mr[39m [39mp[K[1B[K[A[37C[90ms[39m[39ms[?1l>[?2004l[1B]2;docker ps]1;dockerCONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS         PORTS     NAMES
+aa422da87d84   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   6 seconds ago   Up 5 seconds             alpiner
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdd[90mocker ps[39m[8Dd[39mo[39mc[39mk[39me[39mr[39m [39me[39m [90mxec -it mr_curler sh -c 'while true; do echo "[90mI[90mnput website:"; read website; echo "Searching.."; sleep 1; curl http://$website; d[90mo[90mne'[39m[K[A[A[33C[39mx[39me[39mc[39m [39m-[39mi[39mt[39m [39ma[K[1B[K[1B[K[A[A[46Clpiner sh[?1l>[?2004l[1B]2;docker exec -it alpiner sh]1;docker/usr/src/app # [6n/usr/src/app # [J
+/usr/src/app # [6nls
+[1;32mserver[m    [0;0mtext.log[m
+/usr/src/app # [6n
+/usr/src/app # [6ntail -f ./te/usr/src/app # tail -f ./text.log [J
+2023-03-18 13:23:41 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:23:43 +0000 UTC
+2023-03-18 13:23:45 +0000 UTC
+2023-03-18 13:23:47 +0000 UTC
+2023-03-18 13:23:49 +0000 UTC
+2023-03-18 13:23:51 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:23:53 +0000 UTC
+2023-03-18 13:23:55 +0000 UTC
+2023-03-18 13:23:57 +0000 UTC
+2023-03-18 13:23:59 +0000 UTC
+2023-03-18 13:24:01 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:24:03 +0000 UTC
+2023-03-18 13:24:05 +0000 UTC
+2023-03-18 13:24:07 +0000 UTC
+2023-03-18 13:24:09 +0000 UTC
+2023-03-18 13:24:11 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:24:13 +0000 UTC
+2023-03-18 13:24:15 +0000 UTC
+2023-03-18 13:24:17 +0000 UTC
+2023-03-18 13:24:19 +0000 UTC
+2023-03-18 13:24:21 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:24:23 +0000 UTC
+2023-03-18 13:24:25 +0000 UTC
+2023-03-18 13:24:27 +0000 UTC
+2023-03-18 13:24:29 +0000 UTC
+2023-03-18 13:24:31 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:24:33 +0000 UTC
+2023-03-18 13:24:35 +0000 UTC
+2023-03-18 13:24:37 +0000 UTC
+2023-03-18 13:24:39 +0000 UTC
+2023-03-18 13:24:41 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:24:43 +0000 UTC
+2023-03-18 13:24:45 +0000 UTC
+2023-03-18 13:24:47 +0000 UTC
+2023-03-18 13:24:49 +0000 UTC
+2023-03-18 13:24:51 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:24:53 +0000 UTC
+2023-03-18 13:24:55 +0000 UTC
+2023-03-18 13:24:57 +0000 UTC
+2023-03-18 13:24:59 +0000 UTC
+2023-03-18 13:25:01 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:25:03 +0000 UTC
+2023-03-18 13:25:05 +0000 UTC
+2023-03-18 13:25:07 +0000 UTC
+2023-03-18 13:25:09 +0000 UTC
+2023-03-18 13:25:11 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:25:13 +0000 UTC
+2023-03-18 13:25:15 +0000 UTC
+2023-03-18 13:25:17 +0000 UTC
+2023-03-18 13:25:19 +0000 UTC
+2023-03-18 13:25:21 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2023-03-18 13:25:23 +0000 UTC
+read escape sequence
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;31m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdd[90mocker exec -it alpiner sh[39m[25Dd[39mo[39mc[39mk[39me[39mr[39m [39mp[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[90ms[39m[39ms[?1l>[?2004l
+]2;docker ps]1;dockerCONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS         PORTS     NAMES
+aa422da87d84   devopsdockeruh/simple-web-service:alpine   "/usr/src/app/server"   2 minutes ago   Up 2 minutes             alpiner
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdd[90mocker ps[39m[8Dd[39mo[39mc[39mk[39me[39mr[39m [39ms[39m [90mtop mr_curler[39m[13D[39mt[39mo[39mp[39m [39ma[39m [39m [39m [39m [39m [39m [39m [39m [8D[90m8f20ba55e04[39m[11D[39ml[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10Dpiner[1m [0m[0m [?1l>[?2004l
+]2;docker stop alpiner]1;dockeralpiner
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdd[90mocker stop alpiner[39m[18Dd[39mo[39mc[39mk[39me[39mr[39m [39mr[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mun -d -it --name alpiner devopsdockeruh/simple[90m-[90mweb-service:alpine[39m[K[A[18C[39mm[K[1B[K[A[38C[90m alpiner[39m[8D[39m [39ma[39ml[39mp[39mi[39mn[39me[39mr[?1l>[?2004l[1B]2;docker rm alpiner]1;dockeralpiner
+[1m[7m%[27m[1m[0m                                                                                   ]2;apex-predator@Apex-Predator:~/apexDev/course/docker-devops/Docker-DevOps/part-01/exercise-1-5]1;../exercise-1-5[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[H[2J[0m[27m[24m[J[01;32m➜  [36mexercise-1-5[00m [01;34mgit:([31mmain[34m) [33m✗[00m [Kee[90mxplorer.exe .[39m[13De[39mx[39mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mt[39m[39mt[?1l>[?2004l
+]2;exit]1;exit
+Script done on 2023-03-18 16:25:46+03:00 [COMMAND_EXIT_CODE="0"]
