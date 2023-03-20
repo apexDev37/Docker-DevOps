@@ -1,0 +1,1 @@
+docker run -v "$(pwd)/sws-container.log:/usr/src/app/text.log" -it --rm devopsdockeruh/simple-web-service:alpine
